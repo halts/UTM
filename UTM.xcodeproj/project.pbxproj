@@ -29,6 +29,8 @@
 		2CE8EB0A2572E173000E2EBB /* qapi-visit-block-export.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB082572E173000E2EBB /* qapi-visit-block-export.c */; };
 		2CE8EB41257811E8000E2EBB /* UTMConfiguration+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB40257811E8000E2EBB /* UTMConfiguration+Defaults.m */; };
 		2CE8EB42257811E8000E2EBB /* UTMConfiguration+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB40257811E8000E2EBB /* UTMConfiguration+Defaults.m */; };
+		839322EA2530408C009CA087 /* ExternalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839322E92530408C009CA087 /* ExternalScreen.swift */; };
+		839322ED25305D25009CA087 /* VMExternalDisplayMetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839322EC25305D25009CA087 /* VMExternalDisplayMetalViewController.swift */; };
 		CE020BA324AEDC7C00B44AB6 /* UTMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020BA224AEDC7C00B44AB6 /* UTMData.swift */; };
 		CE020BA424AEDC7C00B44AB6 /* UTMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020BA224AEDC7C00B44AB6 /* UTMData.swift */; };
 		CE020BA724AEDEF000B44AB6 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
@@ -968,6 +970,8 @@
 		52873FD8247F5B1B0063E4C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		52873FD9247F5B1B0063E4C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		52873FDA247F5B1B0063E4C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		839322E92530408C009CA087 /* ExternalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalScreen.swift; sourceTree = "<group>"; };
+		839322EC25305D25009CA087 /* VMExternalDisplayMetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMExternalDisplayMetalViewController.swift; sourceTree = "<group>"; };
 		83FBDD53242FA71900D2C5D7 /* VMDisplayMetalViewController+Pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMDisplayMetalViewController+Pointer.h"; sourceTree = "<group>"; };
 		83FBDD55242FA7BC00D2C5D7 /* VMDisplayMetalViewController+Pointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VMDisplayMetalViewController+Pointer.m"; sourceTree = "<group>"; };
 		C8958B6C243634DA002D86B4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
@@ -1870,6 +1874,7 @@
 				CE2D954C24AD4F980059923A /* VMSettingsView.swift */,
 				CE2D954F24AD4F980059923A /* Info.plist */,
 				5286EC91243748AC007E6CBC /* Settings.bundle */,
+				839322E92530408C009CA087 /* ExternalScreen.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -2356,6 +2361,7 @@
 				E2151A58241451120008E6AC /* UIViewController+Extensions.m */,
 				E2B0F9D02426E5510065DFBE /* WKWebView+Workarounds.h */,
 				E2B0F9D12426E5510065DFBE /* WKWebView+Workarounds.m */,
+				839322EC25305D25009CA087 /* VMExternalDisplayMetalViewController.swift */,
 			);
 			path = Display;
 			sourceTree = "<group>";
@@ -2809,6 +2815,7 @@
 				CE2D92B824AD46670059923A /* qapi-events-trace.c in Sources */,
 				2C6D9E142571AFE5003298E6 /* UTMQcow2.c in Sources */,
 				2CE8EAFE2572E14D000E2EBB /* qapi-types-block-export.c in Sources */,
+				839322ED25305D25009CA087 /* VMExternalDisplayMetalViewController.swift in Sources */,
 				CE2D92B924AD46670059923A /* qapi-events-qdev.c in Sources */,
 				CEBE02642588494100B9BCA8 /* CSSession+Sharing.m in Sources */,
 				2C33B3A92566C9B100A954A6 /* VMContextMenuModifier.swift in Sources */,
@@ -2818,6 +2825,7 @@
 				CE2D92BB24AD46670059923A /* qapi-types-tpm.c in Sources */,
 				CE2D92BC24AD46670059923A /* UTMConfiguration+Drives.m in Sources */,
 				CE2D92BD24AD46670059923A /* qapi-visit-char.c in Sources */,
+				839322EA2530408C009CA087 /* ExternalScreen.swift in Sources */,
 				CE2D92BE24AD46670059923A /* qapi-types-error.c in Sources */,
 				CE2D92BF24AD46670059923A /* qapi-commands-authz.c in Sources */,
 				CE2D92C024AD46670059923A /* VMDisplayTerminalViewController+Keyboard.m in Sources */,

@@ -408,13 +408,18 @@ static void cs_channel_destroy(SpiceSession *s, SpiceChannel *channel, gpointer 
 }
 
 - (void)requestResolution:(CGRect)bounds {
+    [self requestResolution:bounds monitorID:self.monitorID];
+}
+
+- (void)requestResolution:(CGRect)bounds monitorID:(NSInteger)monitorID {
+    
     if (!_main) {
         UTMLog(@"ignoring change resolution because main channel not found");
         return;
     }
-    spice_main_channel_update_display_enabled(_main, (int)self.monitorID, TRUE, FALSE);
+    spice_main_channel_update_display_enabled(_main, (int)monitorID, TRUE, FALSE);
     spice_main_channel_update_display(_main,
-                                      (int)self.monitorID,
+                                      (int)monitorID,
                                       bounds.origin.x,
                                       bounds.origin.y,
                                       bounds.size.width,

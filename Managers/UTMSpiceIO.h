@@ -35,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithConfiguration: (UTMConfiguration*) configuration port:(NSInteger)port NS_DESIGNATED_INITIALIZER;
 - (void)changeSharedDirectory:(NSURL *)url;
+- (CSConnection*)getSpiceConnection;
 
 @end
 

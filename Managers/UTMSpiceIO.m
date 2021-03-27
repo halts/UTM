@@ -182,6 +182,10 @@ typedef void (^connectionCallback_t)(BOOL success, NSString * _Nullable msg);
     }
 }
 
+- (CSConnection *)getSpiceConnection {
+    return _spiceConnection;
+}
+
 #pragma mark - CSConnectionDelegate
 
 - (void)spiceConnected:(CSConnection *)connection {
@@ -216,6 +220,9 @@ typedef void (^connectionCallback_t)(BOOL success, NSString * _Nullable msg);
             self.connectionCallback(YES, nil);
             self.connectionCallback = nil;
         }
+    } else {
+        // TODO external
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"externalDisplayAdded" object:nil userInfo:@{@"display":display, @"input":input}];
     }
 }
 

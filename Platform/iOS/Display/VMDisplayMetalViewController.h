@@ -67,6 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL serverModeCursor;
 
 - (void)sendExtendedKey:(CSInputKey)type code:(int)code;
+- (void)resetDisplay;
+- (void)displayResize:(CGSize)size;
 
 @end
 

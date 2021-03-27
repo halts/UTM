@@ -31,6 +31,12 @@
 #import "UTMScreenshot.h"
 #import "UTM-Swift.h"
 
+@interface VMDisplayMetalViewController ()
+
+@property (nonatomic) ExternalScreenController *externalController;
+
+@end
+
 @implementation VMDisplayMetalViewController {
     UTMRenderer *_renderer;
 }
@@ -84,6 +90,8 @@
     if (@available(iOS 12.1, *)) {
         [self initPencilInteraction];
     }
+    // External screen
+    _externalController = [[ExternalScreenController alloc] initWithVmViewController:self metalView: self.mtkView];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -97,7 +105,7 @@
 
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
-    [self displayResize:size];
+    [self displayResize:[self.externalController displaySize]];
 }
 
 - (void)virtualMachine:(UTMVirtualMachine *)vm transitionToState:(UTMVMState)state {
@@ -127,6 +135,7 @@
             if (self.vmConfiguration.shareClipboardEnabled) {
                 [[UTMPasteboard generalPasteboard] requestPollingModeForObject:self];
             }
+            //[self displayResize: [self.externalController displaySize]];
             break;
         }
         default: {

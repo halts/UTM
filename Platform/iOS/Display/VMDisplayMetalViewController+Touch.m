@@ -82,17 +82,17 @@ const CGFloat kScrollResistance = 10.0f;
     _longPress.allowedTouchTypes = @[ @(UITouchTypeDirect) ];
     _pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(gesturePinch:)];
     _pinch.delegate = self;
-    [self.mtkView addGestureRecognizer:_swipeUp];
-    [self.mtkView addGestureRecognizer:_swipeDown];
-    [self.mtkView addGestureRecognizer:_swipeScrollUp];
-    [self.mtkView addGestureRecognizer:_swipeScrollDown];
-    [self.mtkView addGestureRecognizer:_pan];
-    [self.mtkView addGestureRecognizer:_twoPan];
-    [self.mtkView addGestureRecognizer:_threePan];
-    [self.mtkView addGestureRecognizer:_tap];
-    [self.mtkView addGestureRecognizer:_twoTap];
-    [self.mtkView addGestureRecognizer:_longPress];
-    [self.mtkView addGestureRecognizer:_pinch];
+    [self.view addGestureRecognizer:_swipeUp];
+    [self.view addGestureRecognizer:_swipeDown];
+    [self.view addGestureRecognizer:_swipeScrollUp];
+    [self.view addGestureRecognizer:_swipeScrollDown];
+    [self.view addGestureRecognizer:_pan];
+    [self.view addGestureRecognizer:_twoPan];
+    [self.view addGestureRecognizer:_threePan];
+    [self.view addGestureRecognizer:_tap];
+    [self.view addGestureRecognizer:_twoTap];
+    [self.view addGestureRecognizer:_longPress];
+    [self.view addGestureRecognizer:_pinch];
     
     // Feedback generator for clicks
     _clickFeedbackGenerator = [[UISelectionFeedbackGenerator alloc] init];
@@ -584,7 +584,7 @@ static CGFloat CGPointToPixel(CGFloat point) {
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if (!self.vmConfiguration.inputLegacy) {
-        for (UITouch *touch in [event touchesForView:self.mtkView]) {
+        for (UITouch *touch in [event touchesForView:self.view]) {
             VMMouseType type = [self touchTypeToMouseType:touch.type];
             if ([self switchMouseType:type]) {
                 [self dragCursor:UIGestureRecognizerStateEnded primary:YES secondary:YES middle:YES]; // reset drag
@@ -592,7 +592,7 @@ static CGFloat CGPointToPixel(CGFloat point) {
                 BOOL primary = YES;
                 BOOL secondary = NO;
                 BOOL middle = NO;
-                CGPoint pos = [touch locationInView:self.mtkView];
+                CGPoint pos = [touch locationInView:self.view];
                 // iOS 13.4+ Pointing device support
                 if (@available(iOS 13.4, *)) {
                     if (touch.type == UITouchTypeIndirectPointer) {
@@ -622,8 +622,8 @@ static CGFloat CGPointToPixel(CGFloat point) {
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     // move cursor in client mode, in server mode we handle in gesturePan
     if (!self.vmConfiguration.inputLegacy && !self.vmInput.serverModeCursor) {
-        for (UITouch *touch in [event touchesForView:self.mtkView]) {
-            [_cursor updateMovement:[touch locationInView:self.mtkView]];
+        for (UITouch *touch in [event touchesForView:self.view]) {
+            [_cursor updateMovement:[touch locationInView:self.view]];
             break; // handle single touch
         }
     }
