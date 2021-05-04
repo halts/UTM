@@ -255,7 +255,7 @@ error:
 }
 
 - (void)errorTriggered:(nullable NSString *)msg {
-    if (self.state != kVMStopped && self.state != kVMError) {
+    /*if (self.state != kVMStopped && self.state != kVMError) {
         self.viewState.suspended = NO;
         [self saveViewState];
         [self quitVMForce:true];
@@ -263,7 +263,7 @@ error:
     if (self.state != kVMError) { // don't stack errors
         self.delegate.vmMessage = msg;
         [self changeState:kVMError];
-    }
+    }*/
 }
 
 - (BOOL)startVM {

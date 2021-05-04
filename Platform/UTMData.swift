@@ -350,7 +350,7 @@ class UTMData: ObservableObject {
         
         let name = drive.lastPathComponent
         let imageType: UTMDiskImageType = drive.pathExtension.lowercased() == "iso" ? .CD : .disk
-        let imagesPath = config.imagesPath
+        /*let imagesPath = config.imagesPath
         let dstPath = imagesPath.appendingPathComponent(name)
         if !fileManager.fileExists(atPath: imagesPath.path) {
             try fileManager.createDirectory(at: imagesPath, withIntermediateDirectories: false, attributes: nil)
@@ -359,7 +359,7 @@ class UTMData: ObservableObject {
             try fileManager.copyItem(at: drive, to: dstPath)
         } else {
             try fileManager.moveItem(at: drive, to: dstPath)
-        }
+        }*/
         DispatchQueue.main.async {
             let interface: String
             if let target = config.systemTarget {
@@ -367,7 +367,7 @@ class UTMData: ObservableObject {
             } else {
                 interface = "none"
             }
-            config.newDrive(name, type: imageType, interface: interface)
+            config.newDrive(drive.absoluteString, type: imageType, interface: interface)
         }
     }
     

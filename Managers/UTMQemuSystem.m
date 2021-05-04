@@ -233,6 +233,8 @@ static size_t sysctl_read(const char *name) {
         if (hasImage) {
             if ([path characterAtIndex:0] == '/') {
                 fullPathURL = [NSURL fileURLWithPath:path isDirectory:NO];
+            } else if ([path hasPrefix:@"file://"]) {
+                fullPathURL = [NSURL URLWithString:path];
             } else {
                 fullPathURL = [[self.imgPath URLByAppendingPathComponent:[UTMConfiguration diskImagesDirectory]] URLByAppendingPathComponent:[self.configuration driveImagePathForIndex:i]];
             }
