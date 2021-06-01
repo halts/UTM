@@ -1,0 +1,531 @@
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "0TR-HU-09X"; */
+"0TR-HU-09X.placeholder" = "名前";
+
+/* Class = "UILabel"; text = "Drives/Images"; ObjectID = "1FD-SU-TVn"; */
+"1FD-SU-TVn.text" = "ドライブ/イメージ";
+
+/* Class = "UINavigationItem"; title = "Port Forwarding"; ObjectID = "1MT-lr-GTk"; */
+"1MT-lr-GTk.title" = "ポートフォワーディング";
+
+/* Class = "UITableViewSection"; footerTitle = "Requires SPICE guest agent tools to be installed. Retina Mode is recommended only if the guest OS supports HiDPI."; ObjectID = "2ao-Lx-lcQ"; */
+"2ao-Lx-lcQ.footerTitle" = "SPICEゲストエージェントツールをインストールする必要があります。 Retinaモードは、ゲストOSがHiDPIをサポートしている場合にのみ推奨されます。";
+
+/* Class = "UITableViewSection"; headerTitle = "Resolution"; ObjectID = "2ao-Lx-lcQ"; */
+"2ao-Lx-lcQ.headerTitle" = "解像度";
+
+/* Class = "UILabel"; text = "Estimated Usage"; ObjectID = "2bR-IG-wMf"; */
+"2bR-IG-wMf.text" = "推定使用量";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "2Kh-jJ-awN"; */
+"2Kh-jJ-awN.placeholder" = "名前";
+
+/* Class = "UILabel"; text = "Size"; ObjectID = "2r8-dE-rzF"; */
+"2r8-dE-rzF.text" = "サイズ";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "3G1-cS-MAp"; */
+"3G1-cS-MAp.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Path"; ObjectID = "3i2-h0-zr5"; */
+"3i2-h0-zr5.text" = "ディレクトリ";
+
+/* Class = "UILabel"; text = "Full Graphics"; ObjectID = "3Jg-sa-a1s"; */
+"3Jg-sa-a1s.text" = "グラフィックス";
+
+/* Class = "UITextField"; placeholder = "10.0.2.0.15"; ObjectID = "4dt-SP-XL1"; */
+"4dt-SP-XL1.placeholder" = "10.0.2.0.15";
+
+/* Class = "UILabel"; text = "Theme"; ObjectID = "4tC-xd-0a7"; */
+"4tC-xd-0a7.text" = "テーマ";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "4UG-gS-O4i"; */
+"4UG-gS-O4i.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4Xf-3m-yzE"; */
+"4Xf-3m-yzE.text" = "Title";
+
+/* Class = "UILabel"; text = "Enable Directory Sharing"; ObjectID = "5Ae-Pr-d2U"; */
+"5Ae-Pr-d2U.text" = "ディレクトリ共有を有効にする";
+
+/* Class = "UITextField"; placeholder = "fec0::3"; ObjectID = "5AX-Tr-D6a"; */
+"5AX-Tr-D6a.placeholder" = "fec0::3";
+
+/* Class = "UILabel"; text = "DHCP Start"; ObjectID = "5O8-6K-mxz"; */
+"5O8-6K-mxz.text" = "DHCP割当先頭アドレス";
+
+/* Class = "UILabel"; text = "Host Address"; ObjectID = "5pM-Tk-uIx"; */
+"5pM-Tk-uIx.text" = "ホストアドレス";
+
+/* Class = "UILabel"; text = "DHCP Hostname"; ObjectID = "6jT-hy-98r"; */
+"6jT-hy-98r.text" = "DHCPドメイン名";
+
+/* Class = "UITableViewSection"; headerTitle = "Hardware"; ObjectID = "6vN-fV-5rF"; */
+"6vN-fV-5rF.headerTitle" = "ハードウェア";
+
+/* Class = "UITableViewSection"; headerTitle = "Console"; ObjectID = "6zB-bx-Y94"; */
+"6zB-bx-Y94.headerTitle" = "コンソール";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "7CX-Cp-RMc"; */
+"7CX-Cp-RMc.text" = "詳細";
+
+/* Class = "UILabel"; text = "Open Configuration after Creation"; ObjectID = "7DJ-Cp-oMO"; */
+"7DJ-Cp-oMO.text" = "作成後に設定を開く";
+
+/* Class = "UINavigationItem"; title = "Disk Image"; ObjectID = "7id-FA-bJg"; */
+"7id-FA-bJg.title" = "ディスクイメージ";
+
+/* Class = "UITableViewSection"; headerTitle = "System"; ObjectID = "7nd-62-tFA"; */
+"7nd-62-tFA.headerTitle" = "システム";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "9fH-Qw-nVS"; */
+"9fH-Qw-nVS.text" = "詳細";
+
+/* Class = "UILabel"; text = "Architecture"; ObjectID = "9Nu-pG-ywd"; */
+"9Nu-pG-ywd.text" = "アーキテクチャー";
+
+/* Class = "UILabel"; text = "Device"; ObjectID = "49o-9F-Gw7"; */
+"49o-9F-Gw7.text" = "デバイス";
+
+/* Class = "UINavigationItem"; title = "Select Image"; ObjectID = "340-Mu-Hwt"; */
+"340-Mu-Hwt.title" = "イメージを選択";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "734-u9-PNx"; */
+"734-u9-PNx.text" = "12";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "a1E-lK-5Yg"; */
+"a1E-lK-5Yg.text" = "名前";
+
+/* Class = "UILabel"; text = "0 MB"; ObjectID = "a8s-7M-new"; */
+"a8s-7M-new.text" = "0 MB";
+
+/* Class = "UINavigationItem"; title = "Drives/Images"; ObjectID = "aCz-nM-j4Z"; */
+"aCz-nM-j4Z.title" = "ドライブ/イメージ";
+
+/* Class = "UILabel"; text = "Invert Mouse Scroll"; ObjectID = "AFA-AV-g09"; */
+"AFA-AV-g09.text" = "マウススクロールを反転";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "aHx-sa-LGi"; */
+"aHx-sa-LGi.text" = "有効";
+
+/* Class = "UITextField"; placeholder = "stty cols $COLS rows $ROWS\\n"; ObjectID = "aIM-IA-HSe"; */
+"aIM-IA-HSe.placeholder" = "stty cols $COLS rows $ROWS\\n";
+
+/* Class = "UITableViewSection"; headerTitle = "Boot"; ObjectID = "aje-ee-mJi"; */
+"aje-ee-mJi.headerTitle" = "ブート";
+
+/* Class = "UILabel"; text = "Setup Drives/Images"; ObjectID = "AP0-ME-jBc"; */
+"AP0-ME-jBc.text" = "ドライブ/イメージのセットアップ";
+
+/* Class = "UINavigationItem"; title = "Networking"; ObjectID = "bJQ-Qv-ceR"; */
+"bJQ-Qv-ceR.title" = "ネットワーク";
+
+/* Class = "UITableViewSection"; headerTitle = "Name"; ObjectID = "BlT-6O-Tm8"; */
+"BlT-6O-Tm8.headerTitle" = "名前";
+
+/* Class = "UILabel"; text = "Disk Drive"; ObjectID = "bwc-uM-EKo"; */
+"bwc-uM-EKo.text" = "ディスクドライブ";
+
+/* Class = "UIButton"; accessibilityHint = "Start"; ObjectID = "byz-Gf-XHC"; */
+"byz-Gf-XHC.accessibilityHint" = "開始";
+
+/* Class = "UIButton"; accessibilityLabel = "Start"; ObjectID = "byz-Gf-XHC"; */
+"byz-Gf-XHC.accessibilityLabel" = "開始";
+
+/* Class = "UILabel"; text = "Path"; ObjectID = "CDM-d1-Xuf"; */
+"CDM-d1-Xuf.text" = "ディレクトリ";
+
+/* Class = "UITableViewSection"; headerTitle = "Hardware"; ObjectID = "CeH-xF-3fF"; */
+"CeH-xF-3fF.headerTitle" = "ハードウェア";
+
+/* Class = "UINavigationItem"; title = "System"; ObjectID = "CRh-Zb-s8B"; */
+"CRh-Zb-s8B.title" = "システム";
+
+/* Class = "UILabel"; text = "Upscaling"; ObjectID = "cU3-TI-v0c"; */
+"cU3-TI-v0c.text" = "アップスケーリング";
+
+/* Class = "UILabel"; text = "Legacy (PS/2) Mode"; ObjectID = "d5G-2Y-589"; */
+"d5G-2Y-589.text" = "レガシー(PS/2)モート";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "dbT-d1-LCq"; */
+"dbT-d1-LCq.text" = "バージョン";
+
+/* Class = "UILabel"; text = "CPU Cores"; ObjectID = "dHW-er-x98"; */
+"dHW-er-x98.text" = "CPUのコア数";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "dhz-mO-gca"; */
+"dhz-mO-gca.text" = "詳細";
+
+/* Class = "UILabel"; text = "Sound Card"; ObjectID = "DN6-Iz-3mv"; */
+"DN6-Iz-3mv.text" = "サウンドカード";
+
+/* Class = "UITableViewSection"; footerTitle = "Requires SPICE WebDAV service to be installed."; ObjectID = "dpu-6y-nD0"; */
+"dpu-6y-nD0.footerTitle" = "SPICE WebDAVサービスをインストールのは必要です。";
+
+/* Class = "UITableViewSection"; headerTitle = "Shared Directory"; ObjectID = "dpu-6y-nD0"; */
+"dpu-6y-nD0.headerTitle" = "共有ディレクトリ";
+
+/* Class = "UILabel"; text = "Fit to Screen"; ObjectID = "DSd-aZ-Qka"; */
+"DSd-aZ-Qka.text" = "画面に嵌る";
+
+/* Class = "UITextField"; placeholder = "hda.img"; ObjectID = "Dx6-pD-sU3"; */
+"Dx6-pD-sU3.placeholder" = "hda.img";
+
+/* Class = "UILabel"; text = "Guest Network (IPv6)"; ObjectID = "eAi-sh-x9d"; */
+"eAi-sh-x9d.text" = "ゲストネットワーク(IPv6)";
+
+/* Class = "UITableViewSection"; footerTitle = "Hint: for PC system emulation, the most common location is 'ide' and for Virt system emulation, the most common location is 'virtio'. For ISOs, set the image type to 'cd'."; ObjectID = "eeY-js-xSc"; */
+"eeY-js-xSc.footerTitle" = "ヒント：PCシステムエミュレーションの場合、最も一般的な場所は「ide」であり、Virtシステムエミュレーションの場合、最も一般的な場所は「virtio」です。 ISOの場合、イメージタイプを「cd」に設定します。";
+
+/* Class = "UITableViewSection"; headerTitle = "Location"; ObjectID = "eeY-js-xSc"; */
+"eeY-js-xSc.headerTitle" = "Location";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "EGI-JP-qwU"; */
+"EGI-JP-qwU.text" = "Location";
+
+/* Class = "UINavigationItem"; title = "Input"; ObjectID = "Etn-MD-71X"; */
+"Etn-MD-71X.title" = "Input";
+
+/* Class = "UILabel"; text = "Total RAM"; ObjectID = "ETs-n1-aUr"; */
+"ETs-n1-aUr.text" = "Total RAM";
+
+/* Class = "UILabel"; text = "rtl8139"; ObjectID = "exK-JR-7gh"; */
+"exK-JR-7gh.text" = "rtl8139";
+
+/* Class = "UITableViewSection"; headerTitle = "Advanced"; ObjectID = "F7q-42-AmC"; */
+"F7q-42-AmC.headerTitle" = "Advanced";
+
+/* Class = "UILabel"; text = "Disk"; ObjectID = "Ffd-jl-gNs"; */
+"Ffd-jl-gNs.text" = "Disk";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "FFD-Jl-stc"; */
+"FFD-Jl-stc.text" = "Title";
+
+/* Class = "UITableViewSection"; footerTitle = "Requires SPICE guest agent tools to be installed."; ObjectID = "Fjo-PM-Pc6"; */
+"Fjo-PM-Pc6.footerTitle" = "SPICEゲストエージェントツールをインストールする必要があります。";
+
+/* Class = "UITableViewSection"; headerTitle = "Clipboard Sharing"; ObjectID = "Fjo-PM-Pc6"; */
+"Fjo-PM-Pc6.headerTitle" = "クリップボード共有";
+
+/* Class = "UILabel"; text = "Guest Network"; ObjectID = "fOG-3K-1lH"; */
+"fOG-3K-1lH.text" = "ゲストネットワーク";
+
+/* Class = "UITableViewSection"; headerTitle = "Scaling"; ObjectID = "FuI-Z5-HPj"; */
+"FuI-Z5-HPj.headerTitle" = "スケーリング";
+
+/* Class = "UILabel"; text = "Display"; ObjectID = "fZG-YK-q4O"; */
+"fZG-YK-q4O.text" = "ディスプレイ";
+
+/* Class = "UILabel"; text = "Downscaling"; ObjectID = "g1h-Bh-yRJ"; */
+"g1h-Bh-yRJ.text" = "ダウンスケール";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "gTk-zy-Ibj"; */
+"gTk-zy-Ibj.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Enable Clipboard Sharing"; ObjectID = "gTm-35-vCi"; */
+"gTm-35-vCi.text" = "クリップボード共有を有効にする";
+
+/* Class = "UILabel"; text = "Input"; ObjectID = "GvK-o6-9qU"; */
+"GvK-o6-9qU.text" = "インプット";
+
+/* Class = "UITableViewSection"; headerTitle = "Additional Options"; ObjectID = "hjJ-kU-VR1"; */
+"hjJ-kU-VR1.headerTitle" = "その他";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Hlx-Yq-UZR"; */
+"Hlx-Yq-UZR.title" = "Item";
+
+/* Class = "UILabel"; text = "Memory"; ObjectID = "HRc-mq-43y"; */
+"HRc-mq-43y.text" = "メモリ";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "I4t-8W-Nev"; */
+"I4t-8W-Nev.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "Ijr-H4-Hee"; */
+"Ijr-H4-Hee.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "Isolate Guest"; ObjectID = "iS1-Ur-HFa"; */
+"iS1-Ur-HFa.text" = "ゲストをホストから隔離する";
+
+/* Class = "UILabel"; text = "Select..."; ObjectID = "iuP-Eh-P68"; */
+"iuP-Eh-P68.text" = "選択します...";
+
+/* Class = "UILabel"; text = "Host Address (IPv6)"; ObjectID = "j8H-o8-7gQ"; */
+"j8H-o8-7gQ.text" = "ホストアドレス (IPv6)";
+
+/* Class = "UILabel"; text = "DNS Search Domains"; ObjectID = "jDl-dl-Cu8"; */
+"jDl-dl-Cu8.text" = "DNS検索ドメイン";
+
+/* Class = "UITextField"; placeholder = "Default"; ObjectID = "Jk5-aT-3ap"; */
+"Jk5-aT-3ap.placeholder" = "デフォルト";
+
+/* Class = "UILabel"; text = "ac97"; ObjectID = "Jp2-wl-rfZ"; */
+"Jp2-wl-rfZ.text" = "ac97";
+
+/* Class = "UILabel"; text = "Sharing"; ObjectID = "jv0-6r-NAJ"; */
+"jv0-6r-NAJ.text" = "共有";
+
+/* Class = "UILabel"; text = "Removable"; ObjectID = "K1N-PB-wfm"; */
+"K1N-PB-wfm.text" = "リムーバブル";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "KFq-K6-6KS"; */
+"KFq-K6-6KS.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "Network Card"; ObjectID = "KRc-3d-cbz"; */
+"KRc-3d-cbz.text" = "ネットワークカード";
+
+/* Class = "UILabel"; text = "Font Size"; ObjectID = "KSo-te-FQs"; */
+"KSo-te-FQs.text" = "フォントサイズ";
+
+/* Class = "UITableViewSection"; headerTitle = "Name"; ObjectID = "kxc-0J-xgO"; */
+"kxc-0J-xgO.headerTitle" = "名前";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "KYQ-B4-Cf3"; */
+"KYQ-B4-Cf3.text" = "詳細";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "l4L-0j-IXJ"; */
+"l4L-0j-IXJ.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "JIT Cache"; ObjectID = "led-8Q-nNh"; */
+"led-8Q-nNh.text" = "JITキャッシュ";
+
+/* Class = "UITableViewSection"; headerTitle = "Mouse Wheel"; ObjectID = "lFm-mY-36G"; */
+"lFm-mY-36G.headerTitle" = "マウスホイール";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "Llu-cx-Osx"; */
+"Llu-cx-Osx.text" = "有効";
+
+/* Class = "UITableViewSection"; footerTitle = "Command to send when resizing the console. Placeholder $COLS is the number of columns and $ROWS is the number of rows."; ObjectID = "LTq-Mi-VuJ"; */
+"LTq-Mi-VuJ.footerTitle" = "コンソールのサイズを変更するときに送信するコマンド。プレースホルダー $COLS は列の数、 $ROWS  は行の数に置き換えられます。";
+
+/* Class = "UITableViewSection"; headerTitle = "Resize Console Command"; ObjectID = "LTq-Mi-VuJ"; */
+"LTq-Mi-VuJ.headerTitle" = "Resize Console Command";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "lws-wx-k0R"; */
+"lws-wx-k0R.text" = "Title";
+
+/* Class = "UILabel"; text = "MB"; ObjectID = "MAs-NR-G0n"; */
+"MAs-NR-G0n.text" = "MB";
+
+/* Class = "UITableViewSection"; footerTitle = "Default JIT Cache size is 1/4 of the allocated Memory size. This is in addition to the host memory! Force Multicore will allow multi-CPU emulation even if the memory model is not supported by QEMU (x86 on ARM for example). This could result in incorrect emulation."; ObjectID = "MGc-rW-PLa"; */
+"MGc-rW-PLa.footerTitle" = "デフォルトの0に設定すると、割り当てられたメモリサイズの1/4が使われます。これはホストメモリに含まれません!";
+
+/* Class = "UITableViewSection"; headerTitle = "QEMU"; ObjectID = "MGc-rW-PLa"; */
+"MGc-rW-PLa.headerTitle" = "QEMU";
+
+/* Class = "UINavigationItem"; title = "Sound"; ObjectID = "MGj-2L-8uR"; */
+"MGj-2L-8uR.title" = "サウンド";
+
+/* Class = "UITableViewSection"; footerTitle = "Most people do not need to touch these settings."; ObjectID = "mTW-BC-BPZ"; */
+"mTW-BC-BPZ.footerTitle" = "Most people do not need to touch these settings.";
+
+/* Class = "UITableViewSection"; headerTitle = "Advanced Configuration"; ObjectID = "mTW-BC-BPZ"; */
+"mTW-BC-BPZ.headerTitle" = "高度な設定";
+
+/* Class = "UINavigationItem"; title = "Create VM"; ObjectID = "My3-qO-OLf"; */
+"My3-qO-OLf.title" = "VMを作成する";
+
+/* Class = "UITableViewSection"; headerTitle = "Hardware"; ObjectID = "NCJ-Al-5BI"; */
+"NCJ-Al-5BI.headerTitle" = "ハードウェア";
+
+/* Class = "UILabel"; text = "Console Mode"; ObjectID = "nGh-ET-2qO"; */
+"nGh-ET-2qO.text" = "コンソール";
+
+/* Class = "UITextField"; placeholder = "1024"; ObjectID = "nKg-bw-usb"; */
+"nKg-bw-usb.placeholder" = "1024";
+
+/* Class = "UILabel"; text = "Expanding"; ObjectID = "Nom-x9-xrU"; */
+"Nom-x9-xrU.text" = "Expanding";
+
+/* Class = "UITableViewSection"; headerTitle = "Basic"; ObjectID = "npu-cv-8wY"; */
+"npu-cv-8wY.headerTitle" = "Basic";
+
+/* Class = "UILabel"; text = "Debug Log"; ObjectID = "o5n-nQ-vae"; */
+"o5n-nQ-vae.text" = "デバッグログ";
+
+/* Class = "UILabel"; text = "Retina Mode"; ObjectID = "olW-DK-r4a"; */
+"olW-DK-r4a.text" = "Retinaモード";
+
+/* Class = "UINavigationItem"; title = "Sharing"; ObjectID = "ONw-62-0F5"; */
+"ONw-62-0F5.title" = "共有";
+
+/* Class = "UITextField"; placeholder = "512"; ObjectID = "OwS-jd-mte"; */
+"OwS-jd-mte.placeholder" = "512";
+
+/* Class = "UILabel"; text = "DNS Server (IPv6)"; ObjectID = "PaI-t4-MPm"; */
+"PaI-t4-MPm.text" = "DNSサーバ(IPv6)";
+
+/* Class = "UILabel"; text = "Gesture and Cursor Settings"; ObjectID = "PYT-mF-w3w"; */
+"PYT-mF-w3w.text" = "ジェスチャーとカーソルの設定";
+
+/* Class = "UITextField"; placeholder = "10.0.2.0/24"; ObjectID = "q6m-Ld-1jH"; */
+"q6m-Ld-1jH.placeholder" = "10.0.2.0/24";
+
+/* Class = "UIButton"; accessibilityHint = "Return"; ObjectID = "q44-A5-QUO"; */
+"q44-A5-QUO.accessibilityHint" = "Return";
+
+/* Class = "UIButton"; accessibilityLabel = "Return"; ObjectID = "q44-A5-QUO"; */
+"q44-A5-QUO.accessibilityLabel" = "Return";
+
+/* Class = "UILabel"; text = "DHCP Domain Name"; ObjectID = "qiy-Bt-O9l"; */
+"qiy-Bt-O9l.text" = "DHCPドメイン名";
+
+/* Class = "UILabel"; text = "MB"; ObjectID = "qlZ-rS-wks"; */
+"qlZ-rS-wks.text" = "MB";
+
+/* Class = "UILabel"; text = "MB"; ObjectID = "qMH-Bx-PsC"; */
+"qMH-Bx-PsC.text" = "MB";
+
+/* Class = "UILabel"; text = "Select..."; ObjectID = "qtH-iq-gnv"; */
+"qtH-iq-gnv.text" = "選択...";
+
+/* Class = "UILabel"; text = "0 MB"; ObjectID = "r7Y-tO-ugj"; */
+"r7Y-tO-ugj.text" = "0 MB";
+
+/* Class = "UILabel"; text = "Force Multicore"; ObjectID = "raQ-Dg-ejh"; */
+"raQ-Dg-ejh.text" = "強制マルチコア";
+
+/* Class = "UILabel"; text = "hda1"; ObjectID = "rbw-FB-I5Q"; */
+"rbw-FB-I5Q.text" = "hda1";
+
+/* Class = "UILabel"; text = "System"; ObjectID = "riB-R9-dTb"; */
+"riB-R9-dTb.text" = "システム";
+
+/* Class = "UITextField"; placeholder = "10.0.2.2"; ObjectID = "RTg-tj-6ja"; */
+"RTg-tj-6ja.placeholder" = "10.0.2.2";
+
+/* Class = "UITableViewSection"; footerTitle = "PS/2 has higher compatibility with older operating systems but does not support custom cursor settings."; ObjectID = "Rtj-zp-arL"; */
+"Rtj-zp-arL.footerTitle" = "PS/2は、古いオペレーティングシステムとの互換性が高いですが、カスタムカーソル設定はサポートしていません。";
+
+/* Class = "UITableViewSection"; headerTitle = "Legacy"; ObjectID = "Rtj-zp-arL"; */
+"Rtj-zp-arL.headerTitle" = "レガシー";
+
+/* Class = "UITextField"; placeholder = "512"; ObjectID = "S2s-iX-Lul"; */
+"S2s-iX-Lul.placeholder" = "512";
+
+/* Class = "UITableViewSection"; headerTitle = "Image"; ObjectID = "SCF-Z9-xBk"; */
+"SCF-Z9-xBk.headerTitle" = "イメージ";
+
+/* Class = "UITableViewSection"; footerTitle = "For i386/x86_64, use qxl-vga. For virt systems use virtio-ramfb."; ObjectID = "SNE-dA-z6i"; */
+"SNE-dA-z6i.footerTitle" = "i386/x86_64のデフォルト設定はqxl-vgaです。virtシステムのデフォルト設定はvirtio-ramfbです。";
+
+/* Class = "UITableViewSection"; headerTitle = "Display Card"; ObjectID = "SNE-dA-z6i"; */
+"SNE-dA-z6i.headerTitle" = "ビデオカード";
+
+/* Class = "UITableViewSection"; footerTitle = "For most non-ARM targets, all CPUs will be emulated by a single CPU by default. Set 0 to use maximum supported number of CPU."; ObjectID = "spp-Cv-g7X"; */
+"spp-Cv-g7X.footerTitle" = "ほとんどの非ARMターゲットでは、すべてのCPUがデフォルトで単一のCPUによってエミュレートされます。サポートされている最大CPU数を使用すると、0を設定する。";
+
+/* Class = "UITableViewSection"; headerTitle = "Hardware"; ObjectID = "spp-Cv-g7X"; */
+"spp-Cv-g7X.headerTitle" = "ハードウェア";
+
+/* Class = "UILabel"; text = "Memory"; ObjectID = "SvG-PI-7bh"; */
+"SvG-PI-7bh.text" = "メモリ";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "SwZ-ol-btE"; */
+"SwZ-ol-btE.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "10.0.2.0.15"; ObjectID = "sym-7m-1rq"; */
+"sym-7m-1rq.placeholder" = "10.0.2.0.15";
+
+/* Class = "UINavigationItem"; title = "Configuration"; ObjectID = "TeT-9a-let"; */
+"TeT-9a-let.title" = "設定";
+
+/* Class = "UINavigationItem"; title = "Select Directory"; ObjectID = "teU-fb-PrK"; */
+"teU-fb-PrK.title" = "ディレクトリ選択";
+
+/* Class = "UILabel"; text = "Font"; ObjectID = "TL7-f0-qSl"; */
+"TL7-f0-qSl.text" = "フォント";
+
+/* Class = "UILabel"; text = "MB"; ObjectID = "u4W-r9-V11"; */
+"u4W-r9-V11.text" = "MB";
+
+/* Class = "UILabel"; text = "Read Only"; ObjectID = "ujd-Ae-CRP"; */
+"ujd-Ae-CRP.text" = "リードオンリー";
+
+/* Class = "UILabel"; text = "Port Forwarding..."; ObjectID = "UjF-Vd-L2A"; */
+"UjF-Vd-L2A.text" = "ポートフォワーディング...";
+
+/* Class = "UITextField"; placeholder = "QEMU Args"; ObjectID = "upL-Oh-a3A"; */
+"upL-Oh-a3A.placeholder" = "QEMU引数";
+
+/* Class = "UITextField"; placeholder = "fec0::/64"; ObjectID = "UuB-XR-fJS"; */
+"UuB-XR-fJS.placeholder" = "fec0::/64";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "uy0-gI-CBW"; */
+"uy0-gI-CBW.text" = "0";
+
+/* Class = "UITextField"; placeholder = "fec0::2"; ObjectID = "V2H-Ti-2Wa"; */
+"V2H-Ti-2Wa.placeholder" = "fec0::2";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "vJY-9c-oS6"; */
+"vJY-9c-oS6.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "VQv-L6-Wpd"; */
+"VQv-L6-Wpd.text" = "名前";
+
+/* Class = "UINavigationItem"; title = "Additional QEMU Arguments"; ObjectID = "Vsj-CY-Ew5"; */
+"Vsj-CY-Ew5.title" = "QEMU引数を手動で指定します";
+
+/* Class = "UILabel"; text = "Export Log..."; ObjectID = "vU7-wd-ipe"; */
+"vU7-wd-ipe.text" = "ログをエクスポート...";
+
+/* Class = "UITableViewSection"; footerTitle = "If you attempt to allocate more resources than what is on your device, the VM may not boot and your device may become unstable."; ObjectID = "wbc-1J-nlk"; */
+"wbc-1J-nlk.footerTitle" = "警告：iOSは、デバイスの合計メモリの80％以上を使用するアプリを強制終了する。";
+
+/* Class = "UITableViewSection"; headerTitle = "Host Information"; ObjectID = "wbc-1J-nlk"; */
+"wbc-1J-nlk.headerTitle" = "ホスト情報";
+
+/* Class = "UITableViewSection"; headerTitle = "Drives"; ObjectID = "wDi-gr-I7A"; */
+"wDi-gr-I7A.headerTitle" = "ドライブ";
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "wis-6w-tHz"; */
+"wis-6w-tHz.text" = "サウンド";
+
+/* Class = "UITableViewSection"; headerTitle = "Type"; ObjectID = "wjd-8h-Xoa"; */
+"wjd-8h-Xoa.headerTitle" = "種類";
+
+/* Class = "UITableViewSection"; headerTitle = "Debug"; ObjectID = "WkA-K4-U3C"; */
+"WkA-K4-U3C.headerTitle" = "デバッグ";
+
+/* Class = "UILabel"; text = "Additional QEMU Arguments"; ObjectID = "wvt-Dh-tQm"; */
+"wvt-Dh-tQm.text" = "QEMU引数を手動で指定します";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "x96-L4-Oag"; */
+"x96-L4-Oag.text" = "0.0";
+
+/* Class = "UILabel"; text = "System"; ObjectID = "XhT-dg-bb9"; */
+"XhT-dg-bb9.text" = "システム";
+
+/* Class = "UINavigationItem"; title = "New Drive/Image"; ObjectID = "XLc-iy-COp"; */
+"XLc-iy-COp.title" = "ドライブ/イメージ作成";
+
+/* Class = "UILabel"; text = "System"; ObjectID = "xMH-IE-l4T"; */
+"xMH-IE-l4T.text" = "システム";
+
+/* Class = "UILabel"; text = "Image Type"; ObjectID = "xoO-as-9Kn"; */
+"xoO-as-9Kn.text" = "イメージの種類";
+
+/* Class = "UILabel"; text = "Networking"; ObjectID = "XSI-kB-djk"; */
+"XSI-kB-djk.text" = "ネットワーク";
+
+/* Class = "UILabel"; text = "CPU Count"; ObjectID = "XtU-FE-Mry"; */
+"XtU-FE-Mry.text" = "CPUのコア数";
+
+/* Class = "UINavigationItem"; title = "Display"; ObjectID = "xuY-6V-eU1"; */
+"xuY-6V-eU1.title" = "ディスプレイ";
+
+/* Class = "UINavigationItem"; title = "Virtual Machines"; ObjectID = "y7c-vs-jlM"; */
+"y7c-vs-jlM.title" = "仮想マシン";
+
+/* Class = "UILabel"; text = "DNS Server"; ObjectID = "YED-iz-j6H"; */
+"YED-iz-j6H.text" = "DNSサーバ";
+
+/* Class = "UILabel"; text = "Try booting first from"; ObjectID = "Yzl-hW-dz8"; */
+"Yzl-hW-dz8.text" = "起動順序";
+
+/* Class = "UILabel"; text = "Architecture"; ObjectID = "ziF-JQ-bTj"; */
+"ziF-JQ-bTj.text" = "アーキテクチャー";
+
+/* Class = "UILabel"; text = "Machine Properties"; ObjectID = "zoj-Ic-dyX"; */
+"zoj-Ic-dyX.text" = "マシンのプロパティ";
+
+/* Class = "UILabel"; text = "Blinking Cursor"; ObjectID = "ZPx-JZ-dIr"; */
+"ZPx-JZ-dIr.text" = "テキスト　カーソル"";
+

@@ -1,0 +1,9 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "QEMULauncher";
+
+/* Bundle name */
+"CFBundleName" = "QEMULauncher";
+
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "Copyright © 2021 osy. All rights reserved.";
+

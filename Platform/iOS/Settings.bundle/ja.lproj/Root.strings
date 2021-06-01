@@ -1,0 +1,147 @@
+/* (No Comment) */
+"Apple Pencil Input" = "Apple Pencil";
+
+/* (No Comment) */
+"Auto save on background" = "バックグラウンド自動的に保存する";
+
+/* (No Comment) */
+"Auto save on low memory" = "低メモリ自動的に保存する";
+
+/* (No Comment) */
+"Background" = "バックグラウンド";
+
+/* (No Comment) */
+"Backspace" = "バックスペース";
+
+/* (No Comment) */
+"Caps" = "キャップスロック";
+
+/* (No Comment) */
+"Click & Hold" = "クリック＆ホールド";
+
+/* (No Comment) */
+"Continue running VM in the background" = "バックグラウンドでVMを続行する";
+
+/* (No Comment) */
+"Cursor" = "カーソル";
+
+/* (No Comment) */
+"D-DOWN" = "D-DOWN";
+
+/* (No Comment) */
+"D-LEFT" = "D-LEFT";
+
+/* (No Comment) */
+"D-RIGHT" = "D-RIGHT";
+
+/* (No Comment) */
+"D-UP" = "D-UP";
+
+/* (No Comment) */
+"Disabled" = "無効";
+
+/* (No Comment) */
+"Down" = "下";
+
+/* (No Comment) */
+"Drag cursor" = "カーソルを引っ張る";
+
+/* (No Comment) */
+"Enabled" = "有効";
+
+/* (No Comment) */
+"Enter" = "Enter";
+
+/* (No Comment) */
+"Follow cursor" = "カーソルを従う";
+
+/* (No Comment) */
+"Gamepad" = "ゲームパッド";
+
+/* (No Comment) */
+"Gamepad - Cursor Speed" = "ゲームパッド - カーソルスピード";
+
+/* (No Comment) */
+"Gestures" = "ジェスチャー";
+
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+"Group" = "グループ";
+
+/* (No Comment) */
+"Left" = "左";
+
+/* (No Comment) */
+"Long Press" = "長押し";
+
+/* (No Comment) */
+"Menu" = "メニュー";
+
+/* (No Comment) */
+"Mouse Left Button" = "マウスの左ボタン";
+
+/* (No Comment) */
+"Mouse Middle Button" = "マウスの中間ボタン";
+
+/* (No Comment) */
+"Mouse Right Button" = "マウスの右ボタン";
+
+/* (No Comment) */
+"Mouse Wheel" = "マウスホイール";
+
+/* (No Comment) */
+"Mouse Wheel (per swipe)" = "マウスホイール (スワイプするたび)";
+
+/* (No Comment) */
+"Move Screen" = "画面を移動";
+
+/* (No Comment) */
+"Name" = "名前";
+
+/* (No Comment) */
+"none given" = "デフォルト";
+
+/* (No Comment) */
+"Right" = "右";
+
+/* (No Comment) */
+"Right Click" = "右クリック";
+
+/* (No Comment) */
+"Space" = "スペース";
+
+/* (No Comment) */
+"Tablet mode (always show cursor)" = "タブレットモード(常にカーソルを表示)";
+
+/* (No Comment) */
+"Tablet mode (try hiding cursor)" = "タブレットモード（カーソルを非表示）";
+
+/* (No Comment) */
+"Three Finger Pan" = "3本の指で引っ張る";
+
+/* (No Comment) */
+"Touch Input" = "タッチ";
+
+/* (No Comment) */
+"Touch mode (always show cursor)" = "タッチモード（常にカーソルを表示）";
+
+/* (No Comment) */
+"Touch mode (try hiding cursor)" = "タッチモード（カーソルを非表示）";
+
+/* (No Comment) */
+"Touchpad/Mouse Input" = "タッチパッド/マウス";
+
+/* (No Comment) */
+"Two Finger Pan" = "2本の指で引っ張る";
+
+/* (No Comment) */
+"Two Finger Scroll" = "2本の指スクロール";
+
+/* (No Comment) */
+"Two Finger Swipe" = "2本の指スワイプ";
+
+/* (No Comment) */
+"Two Finger Tap" = "2本の指タップ";
+
+/* (No Comment) */
+"Up" = "上";
+

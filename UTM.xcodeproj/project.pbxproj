@@ -29,6 +29,11 @@
 		2CE8EB0A2572E173000E2EBB /* qapi-visit-block-export.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB082572E173000E2EBB /* qapi-visit-block-export.c */; };
 		2CE8EB41257811E8000E2EBB /* UTMConfiguration+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB40257811E8000E2EBB /* UTMConfiguration+Defaults.m */; };
 		2CE8EB42257811E8000E2EBB /* UTMConfiguration+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8EB40257811E8000E2EBB /* UTMConfiguration+Defaults.m */; };
+		4BDC00E125FD29E8003EC7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC00DF25FD29E8003EC7A5 /* InfoPlist.strings */; };
+		4BDC00E425FD29E8003EC7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC00E225FD29E8003EC7A5 /* InfoPlist.strings */; };
+		4BDC00E725FD29E8003EC7A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC00E525FD29E8003EC7A5 /* Localizable.strings */; };
+		4BDC00EA25FD29E8003EC7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC00E825FD29E8003EC7A5 /* InfoPlist.strings */; };
+		4BDC00ED25FD29E8003EC7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC00EB25FD29E8003EC7A5 /* InfoPlist.strings */; };
 		CE020BA324AEDC7C00B44AB6 /* UTMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020BA224AEDC7C00B44AB6 /* UTMData.swift */; };
 		CE020BA424AEDC7C00B44AB6 /* UTMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020BA224AEDC7C00B44AB6 /* UTMData.swift */; };
 		CE020BA724AEDEF000B44AB6 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
@@ -1412,6 +1417,13 @@
 		2CE8EB40257811E8000E2EBB /* UTMConfiguration+Defaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UTMConfiguration+Defaults.m"; sourceTree = "<group>"; };
 		423BCE65240F6A80001989AC /* VMConfigSystemArgumentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMConfigSystemArgumentsViewController.m; sourceTree = "<group>"; };
 		423BCE67240F6A8A001989AC /* VMConfigSystemArgumentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMConfigSystemArgumentsViewController.h; sourceTree = "<group>"; };
+		4BDC00E025FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BDC00E325FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BDC00E625FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4BDC00E925FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BDC00EC25FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BDC00EE25FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4BDC00EF25FD29E8003EC7A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		521F3EFA2414F73800130500 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		52459A322440C84E006A58D0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		525535A1241B8A52003C80FC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -2404,6 +2416,7 @@
 				CE2D953E24AD4F980059923A /* VMConfigNetworkPortForwardView.swift */,
 				CE2D953D24AD4F980059923A /* VMSettingsView.swift */,
 				CE2D954124AD4F980059923A /* Info.plist */,
+				4BDC00E225FD29E8003EC7A5 /* InfoPlist.strings */,
 				CE2D953F24AD4F980059923A /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -2423,6 +2436,7 @@
 				CE2D954D24AD4F980059923A /* VMConfigNetworkPortForwardView.swift */,
 				CE2D954C24AD4F980059923A /* VMSettingsView.swift */,
 				CE2D954F24AD4F980059923A /* Info.plist */,
+				4BDC00E825FD29E8003EC7A5 /* InfoPlist.strings */,
 				5286EC91243748AC007E6CBC /* Settings.bundle */,
 			);
 			path = iOS;
@@ -2875,6 +2889,7 @@
 				CE6B241025F1F4B30020D43E /* QEMULauncher.entitlements */,
 				CE6B240A25F1F3CE0020D43E /* main.c */,
 				CE6B240F25F1F43A0020D43E /* Info.plist */,
+				4BDC00DF25FD29E8003EC7A5 /* InfoPlist.strings */,
 			);
 			path = QEMULauncher;
 			sourceTree = "<group>";
@@ -2999,6 +3014,8 @@
 				CEBDA1DE24D8BDDB0010B5EC /* QEMUHelper.m */,
 				CEBDA1E024D8BDDB0010B5EC /* main.m */,
 				CEBDA1E224D8BDDB0010B5EC /* Info.plist */,
+				4BDC00EB25FD29E8003EC7A5 /* InfoPlist.strings */,
+				4BDC00E525FD29E8003EC7A5 /* Localizable.strings */,
 			);
 			path = QEMUHelper;
 			sourceTree = "<group>";
@@ -3121,6 +3138,7 @@
 			buildConfigurationList = CE6B240E25F1F3CE0020D43E /* Build configuration list for PBXNativeTarget "QEMULauncher" */;
 			buildPhases = (
 				CE6B240425F1F3CE0020D43E /* Sources */,
+				4BDC00F025FD29E8003EC7A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3229,6 +3247,7 @@
 				"zh-Hans",
 				ko,
 				"zh-Hant",
+				ja,
 			);
 			mainGroup = CE550BC0225947990063E575;
 			packageReferences = (
@@ -3250,6 +3269,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4BDC00F025FD29E8003EC7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDC00E125FD29E8003EC7A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE2D936924AD46670059923A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3257,6 +3284,7 @@
 				CE4698F924C8FBD9008C1BD6 /* Icons in Resources */,
 				CEB63A9324F4722900CAF323 /* Main.storyboard in Resources */,
 				CE2D936A24AD46670059923A /* terminal.js in Resources */,
+				4BDC00EA25FD29E8003EC7A5 /* InfoPlist.strings in Resources */,
 				CE2D936B24AD46670059923A /* Localizable.strings in Resources */,
 				CEA905CD2603DBFB00801E7C /* VMUSBDevicesView.xib in Resources */,
 				CE2D936C24AD46670059923A /* qemu in Resources */,
@@ -3281,6 +3309,7 @@
 				CEF83F262500901300557D15 /* qemu in Resources */,
 				CE4698FA24C8FBD9008C1BD6 /* Icons in Resources */,
 				CE2D959024AD50D50059923A /* Localizable.strings in Resources */,
+				4BDC00E425FD29E8003EC7A5 /* InfoPlist.strings in Resources */,
 				CE0FE12824D3B08B0086CEF0 /* VMDisplayWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3315,6 +3344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BDC00E725FD29E8003EC7A5 /* Localizable.strings in Resources */,
+				4BDC00ED25FD29E8003EC7A5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4170,6 +4201,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4BDC00DF25FD29E8003EC7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDC00E025FD29E8003EC7A5 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BDC00E225FD29E8003EC7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDC00E325FD29E8003EC7A5 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BDC00E525FD29E8003EC7A5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDC00E625FD29E8003EC7A5 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4BDC00E825FD29E8003EC7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDC00E925FD29E8003EC7A5 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BDC00EB25FD29E8003EC7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDC00EC25FD29E8003EC7A5 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		521F3EFB2414F73800130500 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4177,6 +4248,7 @@
 				C8958B6D243634DA002D86B4 /* ko */,
 				52873FD9247F5B1B0063E4C8 /* zh-Hant */,
 				CE0E828D24E4D4CE003EA9FE /* Base */,
+				4BDC00EE25FD29E8003EC7A5 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -4199,6 +4271,7 @@
 				525535A1241B8A52003C80FC /* zh-Hans */,
 				C8958B6C243634DA002D86B4 /* ko */,
 				52873FD8247F5B1B0063E4C8 /* zh-Hant */,
+				4BDC00EF25FD29E8003EC7A5 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -1,0 +1,805 @@
+/* No comment provided by engineer. */
+"-" = "-";
+
+/* A removable drive that has no image file inserted. */
+"(empty)" = "(empty)";
+
+/* No comment provided by engineer. */
+"0.0.0.0" = "0.0.0.0";
+
+/* No comment provided by engineer. */
+"10.0.2.0.15" = "10.0.2.0.15";
+
+/* No comment provided by engineer. */
+"10.0.2.0/24" = "10.0.2.0/24";
+
+/* No comment provided by engineer. */
+"10.0.2.2" = "10.0.2.2";
+
+/* No comment provided by engineer. */
+"127.0.0.1" = "127.0.0.1";
+
+/* VMConfigDriveCreateViewController */
+"A file already exists for this name, if you proceed, it will be replaced." = "この名前のファイルはすでに存在します。続行すると、ファイルが置き換えられます。";
+
+/* VMListViewController */
+"A VM already exists with this name." = "この名前のVMはすでに存在します。";
+
+/* No comment provided by engineer. */
+"Acceleration" = "アクセラレーション";
+
+/* No comment provided by engineer. */
+"Additional Settings" = "その他";
+
+/* No comment provided by engineer. */
+"Advanced: Bypass configuration and manually specify arguments" = "高度な設定：設定をバイパスし、引数を手動で指定します。";
+
+/* VMConfigSystemView */
+"Allocating too much memory will crash the VM. Your device has %llu MB of memory and the estimated usage is %llu MB." = "メモリを割り当てすぎると、VMはシステムに強制終了されます。このデバイスは%1$llu MBのメモリがあり、推定使用量は%2$llu MBです。";
+
+/* No comment provided by engineer. */
+"Always use native (HiDPI) resolution" = "常にネイティブ解像度 (HiDPI)を使用する。";
+
+/* VMDisplayWindowController */
+"An internal error has occured." = "内部エラーが発生しました。";
+
+/* VMDisplayViewController */
+"An internal error has occured. UTM will terminate." = "内部エラーが発生しました。UTMは終了します。";
+
+/* No comment provided by engineer. */
+"Another Tab" = "別のタブ";
+
+/* No comment provided by engineer. */
+"Architecture" = "アーキテクチャー";
+
+/* VMConfigDirectoryPickerViewController */
+"Are you sure you want to delete this directory? All files and subdirectories WILL be deleted." = "このディレクトリを削除してもよろしいですか？ すべてのファイルとサブディレクトリが削除されます。";
+
+/* Delete confirmation */
+"Are you sure you want to delete this VM? Any drives associated will also be deleted." = "このVMを削除してもよろしいですか？ 関連するドライブもすべて削除されます。";
+
+/* VMDisplayViewController */
+"Are you sure you want to exit UTM?." = "UTMを終了してもよろしいですか？";
+
+/* VMConfigDrivePickerViewController */
+"Are you sure you want to permanently delete this disk image?" = "このディスクイメージを完全に削除してもよろしいですか？";
+
+/* VMDisplayViewController */
+"Are you sure you want to reset this VM? Any unsaved changes will be lost." = "このVMをリセットしてもよろしいですか？ 保存されていない変更はすべて失われます。";
+
+/* VMDisplayViewController */
+"Are you sure you want to stop this VM and exit? Any unsaved changes will be lost." = "このVMを停止して、UTMを終了してもよろしいですか？ 保存されていない変更はすべて失われます。";
+
+/* No comment provided by engineer. */
+"Argument" = "引数";
+
+/* UTMConfiguration */
+"BIOS" = "BIOS";
+
+/* No comment provided by engineer. */
+"Blinking Cursor" = "テキスト　カーソル";
+
+/* No comment provided by engineer. */
+"Boot Options" = "ブートオプション";
+
+/* No comment provided by engineer. */
+"Boot Order" = "起動順序";
+
+/* VMConfigSharingViewController */
+"Browse..." = "フォルダ指定..";
+
+/* VMDisplayWindowController */
+"Cancel" = "キャンセル";
+
+/* VMConfigDriveCreateViewController */
+"Cannot create directory for disk image." = "ディスクイメージのディレクトリを作成できません。";
+
+/* VMDisplayTerminalWindowController */
+"Cannot find bundle resources." = "バンドルリソースが見つかりません。";
+
+/* VMListViewController */
+"Cannot find VM." = "VMが見つかりません。";
+
+/* UTMVirtualMachine+Sharing */
+"Cannot start shared directory before SPICE starts." = "SPICEが起動する前に共有ディレクトリを起動することはできません。";
+
+/* VMDisplayMetalWindowController */
+"Captured mouse" = "マウスを捕獲する";
+
+/* Configuration boot device */
+"CD/DVD" = "CD/DVD";
+
+/* UTMConfiguration */
+"CD/DVD (ISO) Image" = "CD/DVD(ISOイメージ)";
+
+/* VMDisplayWindowController */
+"Change" = "変更";
+
+/* No comment provided by engineer. */
+"Clipboard Sharing" = "クリップボード共有";
+
+/* Clone context menu */
+"Clone" = "クローン";
+
+/* No comment provided by engineer. */
+"Command to send when resizing the console. Placeholder $COLS is the number of columns and $ROWS is the number of rows." = "コンソールのサイズを変更するときに送信するコマンド。プレースホルダー $COLS は列の数、 $ROWS  は行の数に置き換えられます。";
+
+/* UTMVirtualMachine */
+"Config format incorrect." = "設定形式が正しくありません。";
+
+/* No comment provided by engineer. */
+"Confirm Delete" = "削除する";
+
+/* VMDisplayWindowController */
+"Confirmation" = "確認";
+
+/* No comment provided by engineer. */
+"Console Only" = "コンソール";
+
+/* No comment provided by engineer. */
+"Cores" = "コア";
+
+/* No comment provided by engineer. */
+"CPU" = "CPU";
+
+/* No comment provided by engineer. */
+"CPU Cores" = "CPUのコア数";
+
+/* No comment provided by engineer. */
+"CPU Flags" = "CPUのフラグ";
+
+/* Create button */
+"Create" = "作成する";
+
+/* VMConfigDirectoryPickerViewController */
+"Create Directory" = "ディレクトリを作成する";
+
+/* VMConfigDriveCreateViewController */
+"Creating disk..." = "ディスクを作成中...";
+
+/* No comment provided by engineer. */
+"Debug Logging" = "デバッグログ";
+
+/* Delete button
+   Delete context menu
+   VMConfigDirectoryPickerViewController */
+"Delete" = "削除";
+
+/* VMConfigDrivesViewController */
+"Delete Data" = "データを削除する";
+
+/* Delete VM overlay */
+"Deleting %@..." = "%@ 削除中...";
+
+/* No comment provided by engineer. */
+"DHCP Domain Name" = "DHCPドメイン名";
+
+/* No comment provided by engineer. */
+"DHCP Host" = "DHCPホスト";
+
+/* No comment provided by engineer. */
+"DHCP Start" = "DHCP割当先頭アドレス";
+
+/* VMConfigDirectoryPickerViewController */
+"Directory Name" = "ディレクトリ名";
+
+/* VMDisplayTerminalViewController */
+"Disable this bar in Settings -> General -> Keyboards -> Shortcuts" = "[設定]-> [一般]-> [キーボード]-> [ショートカット]でこのバーを無効にします。";
+
+/* UTMData */
+"Disk creation failed." = "ディスクの作成に失敗しました。";
+
+/* UTMConfiguration */
+"Disk Image" = "ディスクイメージ";
+
+/* No comment provided by engineer. */
+"DNS Search Domains" = "DNS検索ドメイン";
+
+/* No comment provided by engineer. */
+"DNS Server" = "DNSサーバ";
+
+/* No comment provided by engineer. */
+"DNS Server (IPv6)" = "DNSサーバ(IPv6)";
+
+/* VMConfigDrivesViewController */
+"Do you want to also delete the disk image data? If yes, the data will be lost. Otherwise, you can create a new drive with the existing data." = "ディスクイメージデータも削除しますか？ 削除すると、データは失われます。 それ以外の場合は、同じデータを使用して新しいドライブを作成できます。";
+
+/* No comment provided by engineer. */
+"Do you want to delete this VM and all its data?" = "VMとそのすべてのデータを削除しますか？";
+
+/* No comment provided by engineer. */
+"Do you want to duplicate this VM and all its data?" = "このVMとそのすべてのデータを複製しますか？";
+
+/* No comment provided by engineer. */
+"Do you want to force stop this VM and lose all unsaved data?" = "このVMを強制終了しますか？保存されていないデータはすべて失われます。";
+
+/* VMConfigDirectoryPickerViewController
+   VMConfigPortForwardingViewController */
+"Done" = "完了";
+
+/* No comment provided by engineer. */
+"Downscaling" = "ダウンスケール";
+
+/* VMRemovableDrivesViewController */
+"Drive Options" = "ドライブオプション";
+
+/* VMDisplayWindowController */
+"Eject" = "取り出す";
+
+/* No comment provided by engineer. */
+"Emulated Audio Card" = "サウンドカード";
+
+/* No comment provided by engineer. */
+"Emulated Display Card" = "ビデオカード";
+
+/* No comment provided by engineer. */
+"Emulated Network Card" = "ネットワークカード";
+
+/* No comment provided by engineer. */
+"Enable Clipboard Sharing" = "クリップボード共有を有効にする";
+
+/* No comment provided by engineer. */
+"Enable Directory Sharing" = "ディレクトリ共有を有効にする";
+
+/* No comment provided by engineer. */
+"Enabled" = "有効";
+
+/* VMDisplayWindowController */
+"Error" = "エラー";
+
+/* UTMJSONStream */
+"Error parsing JSON." = "Error parsing JSON.";
+
+/* VMConfigDriveCreateViewController */
+"Error renaming file" = "Error renaming file";
+
+/* UTMVirtualMachine */
+"Error trying to restore removable drives: %@" = "リムーバブルドライブをリストア中にエラーが発生しました: %@";
+
+/* UTMVirtualMachine */
+"Error trying to start shared directory: %@" = "共有ディレクトリの起動中にエラーが発生しました: %@";
+
+/* UTMVirtualMachine+Drives */
+"Failed create bookmark." = "ブックマークの作成に失敗しました。";
+
+/* UTMVirtualMachine+Drives */
+"Failed to access drive image path." = "ドライブイメージパスへのアクセスに失敗しました。";
+
+/* VMConfigInfoView */
+"Failed to check name." = "名前の確認に失敗しました";
+
+/* UTMData */
+"Failed to clone VM." = "VMのクローンに失敗しました";
+
+/* UTMSpiceIO */
+"Failed to connect to SPICE server." = "SPICEサーバーへの接続に失敗しました。";
+
+/* UTMDataExtension */
+"Failed to delete saved state." = "保存された状態の削除に失敗しました。";
+
+/* VMRemovableDrivesViewController */
+"Failed to get VM object." = "VMオブジェクトの取得に失敗しました。";
+
+/* UTMVirtualMachine */
+"Failed to load plist" = "plistのロードに失敗しました";
+
+/* UTMData */
+"Failed to parse imported VM." = "インポートされたVMの解析に失敗しました。";
+
+/* VMDisplayWindowController */
+"Failed to save VM state. Do you have at least one read-write drive attached that supports snapshots?" = "VMの状態を保存できませんでした。 スナップショットをサポートする読み取り/書き込みドライブが少なくとも1つ接続されていますか？";
+
+/* No comment provided by engineer. */
+"fec0::/64" = "fec0::/64";
+
+/* No comment provided by engineer. */
+"fec0::2" = "fec0::2";
+
+/* No comment provided by engineer. */
+"fec0::3" = "fec0::3";
+
+/* No comment provided by engineer. */
+"Fit To Screen" = "スクリーンに合わせる";
+
+/* Configuration boot device */
+"Floppy" = "フロッピー";
+
+/* No comment provided by engineer. */
+"Font" = "フォント";
+
+/* No comment provided by engineer. */
+"Font Size" = "フォントサイズ";
+
+/* No comment provided by engineer. */
+"Force Multicore" = "強制マルチコア";
+
+/* No comment provided by engineer. */
+"Force slower emulation even when hypervisor is available" = "ハイパーバイザーが使用可能な場合でも、遅いエミュレーションを強制する";
+
+/* No comment provided by engineer. */
+"Full Graphics" = "グラフィックス";
+
+/* No comment provided by engineer. */
+"Gesture and Cursor Settings" = "ジェスチャーとカーソルの設定";
+
+/* No comment provided by engineer. */
+"Guest Address" = "ゲストアドレス";
+
+/* VMConfigPortForwardingViewController */
+"Guest address (optional)" = "ゲストアドレス(省略可)";
+
+/* No comment provided by engineer. */
+"Guest Network" = "ゲストネットワーク";
+
+/* No comment provided by engineer. */
+"Guest Network (IPv6)" = "ゲストネットワーク (IPv6)";
+
+/* UTMQemuManager */
+"Guest panic" = "ゲストパニック";
+
+/* No comment provided by engineer. */
+"Guest Port" = "ゲストポート";
+
+/* VMConfigPortForwardingViewController */
+"Guest port (required)" = "ゲストポート(必須)";
+
+/* Configuration boot device */
+"Hard Disk" = "ハードディスク";
+
+/* No comment provided by engineer. */
+"Hardware" = "ハードウェア";
+
+/* No comment provided by engineer. */
+"Hide Unused Flags..." = "Hide Unused Flags...";
+
+/* VMDisplayViewController */
+"Hint: To show the toolbar again, use a three-finger swipe down on the screen." = "ヒント：ツールバーを再度表示するには、画面を3本の指で下にスワイプする";
+
+/* No comment provided by engineer. */
+"Hold Control (⌃) for right click" = "コントロール(⌃)を押したまま右クリックする";
+
+/* No comment provided by engineer. */
+"Host Address" = "ホストアドレス";
+
+/* No comment provided by engineer. */
+"Host Address (IPv6)" = "ホストアドレス (IPv6)";
+
+/* VMConfigPortForwardingViewController */
+"Host address (optional)" = "ホストアドレス (省略可)";
+
+/* No comment provided by engineer. */
+"Host Port" = "ホストポート";
+
+/* VMConfigPortForwardingViewController */
+"Host port (required)" = "ホストポート (必須)";
+
+/* No comment provided by engineer. */
+"Icon" = "アイコン";
+
+/* No comment provided by engineer. */
+"Image Type" = "イメージの種類";
+
+/* Import button */
+"Import" = "インポート";
+
+/* No comment provided by engineer. */
+"Import Virtual Machine..." = "VMをインポート..";
+
+/* Save VM overlay */
+"Importing %@..." = "%@をインポート中...";
+
+/* No comment provided by engineer. */
+"Interface" = "インターフェース";
+
+/* UTMQemu */
+"Internal error has occurred." = "内部エラーが発生しました。";
+
+/* UTMVirtualMachine */
+"Internal error starting main loop." = "Internal error starting main loop.";
+
+/* UTMVirtualMachine */
+"Internal error starting VM." = "VMの起動中に内部エラーが発生しました。";
+
+/* VMDisplayMetalWindowController */
+"Internal error." = "内部エラー。";
+
+/* VMConfigSystemViewController */
+"Invalid core count." = "コア数が無効です。";
+
+/* UTMData */
+"Invalid drive size." = "ドライブサイズが無効です。";
+
+/* VMRemovableDrivesViewController */
+"Invalid file selected." = "選択されましたファイルが無効です。";
+
+/* VMConfigSystemViewController */
+"Invalid memory size." = "メモリサイズが無効です。";
+
+/* VMConfigDriveCreateViewController */
+"Invalid name" = "名前が無効です。";
+
+/* VMConfigDriveCreateViewController */
+"Invalid size" = "サイズが無効です。";
+
+/* VMListViewController */
+"Invalid UTM not imported." = "無効なUTMがインポートされませんでした。";
+
+/* No comment provided by engineer. */
+"Invert Mouse Scroll" = "マウススクロールを反転";
+
+/* No comment provided by engineer. */
+"IP Configuration" = "IPの設定";
+
+/* No comment provided by engineer. */
+"Isolate Guest from Host" = "ゲストをホストから隔離する";
+
+/* No comment provided by engineer. */
+"JIT Cache" = "JITキャッシュ";
+
+/* VMConfigSystemViewController */
+"JIT cache size cannot be larger than 2GB." = "JITキャッシュサイズは2GBを超えることはできません。";
+
+/* VMConfigSystemViewController */
+"JIT cache size too small." = "JITキャッシュサイズが小さすぎます。";
+
+/* No comment provided by engineer. */
+"Legacy" = "レガシー";
+
+/* No comment provided by engineer. */
+"Legacy (PS/2) Mode" = "レガシー(PS/2)モート";
+
+/* No comment provided by engineer. */
+"License" = "ライセンス";
+
+/* UTMConfiguration */
+"Linear" = "Linear";
+
+/* UTMConfiguration */
+"Linux Device Tree Binary" = "Linux Device Tree Binary";
+
+/* UTMConfiguration */
+"Linux Kernel" = "Linux Kernel";
+
+/* UTMConfiguration */
+"Linux RAM Disk" = "Linux RAM Disk";
+
+/* No comment provided by engineer. */
+"Logging" = "Logging";
+
+/* UTMQemuManager */
+"Manager being deallocated, killing pending RPC." = "Manager being deallocated, killing pending RPC.";
+
+/* No comment provided by engineer. */
+"MB" = "MB";
+
+/* No comment provided by engineer. */
+"Memory" = "メモリ";
+
+/* VMDisplayMetalWindowController */
+"Metal is not supported on this device. Cannot render display." = "Metal is not supported on this device. Cannot render display.";
+
+/* No comment provided by engineer. */
+"Mouse Wheel" = "マウスホイール";
+
+/* Save VM overlay */
+"Moving %@..." = "%@を移動中...";
+
+/* Clone VM name prompt title */
+"Name" = "名前";
+
+/* VMConfigInfoView */
+"Name is an invalid filename." = "ファイル名は無効です。";
+
+/* UTMConfiguration */
+"Nearest Neighbor" = "Nearest Neighbor";
+
+/* No comment provided by engineer. */
+"New" = "New";
+
+/* VMConfigPortForwardingViewController */
+"New port forward" = "New port forward";
+
+/* No comment provided by engineer. */
+"New Virtual Machine" = "New Virtual Machine";
+
+/* Clone VM name prompt message */
+"New VM name" = "New VM name";
+
+/* No comment provided by engineer. */
+"New..." = "New...";
+
+/* No button
+   VMDisplayViewController
+   VMListViewController */
+"No" = "いいえ";
+
+/* UTMQemuManager */
+"No connection for RPC." = "No connection for RPC.";
+
+/* VMConfigExistingViewController */
+"No debug log found!" = "No debug log found!";
+
+/* No comment provided by engineer. */
+"No drives added." = "No drives added.";
+
+/* VMDisplayWindowController */
+"No drives connected." = "No drives connected.";
+
+/* UTMData */
+"No log found!" = "No log found!";
+
+/* UTMDrive */
+"none" = "none";
+
+/* UTMConfiguration */
+"None" = "None";
+
+/* No comment provided by engineer. */
+"Note: select the path to share from the main screen." = "Note: select the path to share from the main screen.";
+
+/* No comment provided by engineer. */
+"Notes" = "Notes";
+
+/* VMDisplayWindowController */
+"OK" = "OK";
+
+/* VMDisplayWindowController */
+"Pause" = "停止";
+
+/* VMDisplayWindowController */
+"Play" = "再開";
+
+/* No comment provided by engineer. */
+"Port Forward" = "ポートフォワーディング";
+
+/* No comment provided by engineer. */
+"Protocol" = "プロトコル";
+
+/* No comment provided by engineer. */
+"PS/2 has higher compatibility with older operating systems but does not support custom cursor settings." = "PS/2は、古いオペレーティングシステムとの互換性が高いですが、カスタムカーソル設定はサポートしていません。";
+
+/* No comment provided by engineer. */
+"QEMU Arguments" = "QEMU引数";
+
+/* UTMQemu */
+"QEMU exited from an error: %@" = "QEMUがエラーで終了しました: %@";
+
+/* No comment provided by engineer. */
+"QEMU Machine Properties" = "QEMUマシンのプロパティ";
+
+/* VMDisplayWindowController */
+"Querying drives status..." = "Querying drives status...";
+
+/* No comment provided by engineer. */
+"Read Only" = "リードオンリー";
+
+/* No comment provided by engineer. */
+"Removable" = "リムーバブル";
+
+/* VMConfigDrivesView
+   VMConfigDrivesViewController */
+"Removable Drive" = "リムーバブル ドライブ";
+
+/* No comment provided by engineer. */
+"Requires SPICE guest agent tools to be installed." = "SPICEゲストエージェントツールをインストールする必要があります。";
+
+/* No comment provided by engineer. */
+"Requires SPICE guest agent tools to be installed. Retina Mode is recommended only if the guest OS supports HiDPI." = "SPICEゲストエージェントツールをインストールする必要があります。 Retinaモードは、ゲストOSがHiDPIをサポートしている場合にのみ推奨されます。";
+
+/* No comment provided by engineer. */
+"Requires SPICE WebDAV service to be installed." = "SPICE WebDAVサービスをインストールのは必要です。";
+
+/* No comment provided by engineer. */
+"Resize Console Command" = "Resize Console Command";
+
+/* No comment provided by engineer. */
+"Resolution" = "解像度";
+
+/* No comment provided by engineer. */
+"Retina Mode" = "Retinaモード";
+
+/* VMDisplayViewController */
+"Running low on memory! UTM might soon be killed by iOS. You can prevent this by decreasing the amount of memory and/or JIT cache assigned to this VM" = "メモリ不足です！ UTMはiOSに強制終了される可能性があります。このVMのメモリやJITキャッシュの量を減らすると、これを防ぐことができます";
+
+/* No comment provided by engineer. */
+"Save" = "保存";
+
+/* Save VM overlay */
+"Saving %@..." = "%@を保存中...";
+
+/* No comment provided by engineer. */
+"Scaling" = "スケーリング";
+
+/* VMDisplayWindowController */
+"Select Drive Image" = "ドライブイメージを選択する";
+
+/* VMDisplayWindowController */
+"Select Shared Folder" = "共有フォルダを選択する";
+
+/* No comment provided by engineer. */
+"Selected:" = "Selected:";
+
+/* No comment provided by engineer. */
+"Set to 0 for default which is 1/4 of the allocated Memory size. This is in addition to the host memory!" = "デフォルトの0に設定したら、割り当てられたメモリサイズの1/4を使います。これはホストメモリに含まれません！";
+
+/* No comment provided by engineer. */
+"Set to 0 to use maximum supported CPUs. Force multicore might result in incorrect emulation." = "サポートされている最大CPUを使用するには、0に設定する。 マルチコアを強制すると、エミュレーションが正しくなくなる可能性があります。";
+
+/* Share context menu */
+"Share" = "共有";
+
+/* No comment provided by engineer. */
+"Shared Directory" = "共有ディレクトリ";
+
+/* VMConfigSharingViewController */
+"Shared path has moved. Please re-choose." = "共有ディレクトリが移動しました。 再選択してください。";
+
+/* VMConfigSharingViewController */
+"Shared path is no longer valid. Please re-choose." = "共有ディレクトリは無効になりました。もう一度選択してください。";
+
+/* No comment provided by engineer. */
+"Show Advanced Settings" = "高度な設定を表示する";
+
+/* No comment provided by engineer. */
+"Show All Flags..." = "すべてのフラグを表示...";
+
+/* No comment provided by engineer. */
+"Size" = "サイズ";
+
+/* No comment provided by engineer. */
+"Stop" = "止める";
+
+/* No comment provided by engineer. */
+"Style" = "スタイル";
+
+/* No comment provided by engineer. */
+"Support" = "サポート";
+
+/* No comment provided by engineer. */
+"System" = "システム";
+
+/* VMConfigPortForwardingViewController */
+"TCP Forward" = "TCPフォワーディング";
+
+/* No comment provided by engineer. */
+"Test" = "Test";
+
+/* No comment provided by engineer. */
+"The First Tab" = "The First Tab";
+
+/* No comment provided by engineer. */
+"The Last Tab" = "The Last Tab";
+
+/* VMConfigSystemViewController */
+"The total memory usage is close to your device's limit. iOS will kill the VM if it consumes too much memory." = "合計メモリ使用量がデバイスの制限に近づいています。 iOSは、メモリを大量に消費するとVMを強制終了する。";
+
+/* No comment provided by engineer. */
+"Theme" = "テーマ";
+
+/* No comment provided by engineer. */
+"These settings are unavailable in console display mode." = "これらの設定は、コンソール表示モードでは使用できません。";
+
+/* VMDisplayWindowController */
+"This may corrupt the VM and any unsaved changes will be lost. To quit safely, shut down from the guest." = "これによりVMが破損し、保存されていない変更が失われる可能性があります。 安全に終了するには、ゲストからシャットダウンする。";
+
+/* No comment provided by engineer. */
+"This virtual machine has been deleted." = "このVMは削除されました。";
+
+/* VMDisplayWindowController */
+"This will reset the VM and any unsaved state will be lost." = "これによりVMがリセットされ、保存されていない状態はすべて失われます。";
+
+/* UTMQemuManager */
+"Timed out waiting for RPC." = "Timed out waiting for RPC.";
+
+/* VMDisplayMetalWindowController */
+"To release the mouse cursor, press ⌃+⌥ (Ctrl+Opt or Ctrl+Alt) at the same time." = "マウスカーソルを離すには、⌃ +⌥(Ctrl + Opt または Ctrl + Alt) を同時に押す。";
+
+/* No comment provided by engineer. */
+"Type" = "Type";
+
+/* VMConfigPortForwardingViewController */
+"UDP Forward" = "UDPフォワーディング";
+
+/* UTMConfigurationExtension */
+"Unknown" = "Unknown";
+
+/* No comment provided by engineer. */
+"Upscaling" = "アップスケーリング";
+
+/* No comment provided by engineer. */
+"Virtual Machine Gallery" = "仮想マシンギャラリー";
+
+/* No comment provided by engineer. */
+"VM display size is fixed" = "VMの表示サイズは固定されています";
+
+/* UTMVirtualMachine+Sharing */
+"VM frontend does not support shared directories." = "VMフロントエンドは共有ディレクトリをサポートしていません。";
+
+/* VMConfigSystemViewController */
+"Warning: iOS will kill apps that use more than 80% of the device's total memory." = "警告：iOSは、デバイスの合計メモリの80％以上を使用するアプリを強制終了する。";
+
+/* No comment provided by engineer. */
+"Welcome to UTM" = "ようこそ UTM";
+
+/* Startup message */
+"Welcome to UTM! Due to a bug in iOS, if you force kill this app, the system will be unstable and you cannot launch UTM again until you reboot. The recommended way to terminate this app is the button on the top left." = "UTMへようこそ！ iOSのバグが原因で、このアプリを強制終了すると、システムが不安定になり、再起動するまでUTMを再度起動できなくなります。 このアプリを終了するための推奨される方法は、左上のボタンです。";
+
+/* VMConfigDrivePickerViewController */
+"Would you like to import an existing disk image or create a new one?" = "既存のディスクイメージをインポートしますか、それとも新しいディスクイメージを作成しますか？";
+
+/* VMDisplayViewController
+   VMListViewController
+   Yes button */
+"Yes" = "はい";
+
+/* No comment provided by engineer. */
+"You can download an existing VM configuration for popular operating systems from the UTM gallery or start from scratch." = "一般的なオペレーティングシステムの既存のVM構成をUTMギャラリーからダウンロードするか、新規に作成することができます。";
+
+/* UTMData */
+"You cannot import a .utm package as a drive. Did you mean to open the package with UTM?" = ".utmパッケージをドライブとしてインポートすることはできません。 UTMでパッケージとして開きますか？";
+
+/* UTMData */
+"You cannot import a directory as a drive." = "ディレクトリをドライブとしてインポートすることはできません。";
+
+/* VMConfigDriveDetailsViewController */
+"You must select a disk image." = "ディスクイメージを選択してください。";
+
+/* VMDisplayViewController */
+"You must terminate the running VM before you can import a new VM." = "新しいVMをインポートする前に、実行中のVMを終了する必要があります。";
+
+/* ContentView */
+"Your version of iOS does not support running VMs while unmodified. You must either run UTM while jailbroken or with a remote debugger attached." = "お使いのバージョンのiOSは、変更されていない状態でのVMの実行をサポートしていません。 ジェイルブレイクするかリモートデバッガーを接続した状態でUTMを実行する必要があります。";
+
+/* No comment provided by engineer. */
+"Create a New Virtual Machine" = "新しい仮想マシンを作成する";
+
+/* No comment provided by engineer. */
+"User Guide" = "ユーザーガイド";
+
+/* No comment provided by engineer. */
+"Browse UTM Gallery" = "UTMギャラリーを閲覧する";
+
+/* No comment provided by engineer. */
+"Running" = "起動中";
+
+/* No comment provided by engineer. */
+"Not running" = "起動していません";
+
+/* No comment provided by engineer. */
+"Suspended" = "停止";
+
+/* No comment provided by engineer. */
+"Status" = "状態";
+
+/* No comment provided by engineer. */
+"Information" = "情報";
+
+/* No comment provided by engineer. */
+"Settings" = "設定";
+
+/* No comment provided by engineer. */
+"QEMU" = "QEMU";
+
+/* No comment provided by engineer. */
+"Drives" = "ドライブ";
+
+/* No comment provided by engineer. */
+"Display" = "ディスプレイ";
+
+/* No comment provided by engineer. */
+"Input" = "インプット";
+
+/* No comment provided by engineer. */
+"Network" = "ネットワーク";
+
+/* No comment provided by engineer. */
+"Sound" = "サウンド";
+
+/* No comment provided by engineer. */
+"Sharing" = "共有";
+
+/* No comment provided by engineer. */
+"Type" = "種類";
+
+/* No comment provided by engineer. */
+"Note: select the path to share from the main screen." = "注：メイン画面から共有ディレクトリを選択する。";

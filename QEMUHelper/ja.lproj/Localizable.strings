@@ -1,0 +1,9 @@
+/* QEMUHelper */
+"Cannot find QEMU support libraries." = "Cannot find QEMU support libraries.";
+
+/* QEMUHelper */
+"Error starting QEMU." = "Error starting QEMU.";
+
+/* QEMUHelper */
+"QEMU exited unexpectedly." = "QEMU exited unexpectedly.";
+
