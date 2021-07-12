@@ -22,6 +22,11 @@ The easy way is to get the prebuilt dependences from [Github Actions][1]. Pick t
 | Simulator    | `ios_simulator-x86_64`     | `ios_simulator-arm64`     |
 | Simulator SE | `ios_simulator-tci-x86_64` | `ios_simulator-tci-arm64` |
 
+### Important Note on Prebuilt Dependencies
+If you choose to leverage prebuilt dependencies, you will need to fetch the dependencies that correspond to the version of UTM that you have checked out. All UTM releases are tagged in Git. For example, if you are trying to build version `X.Y.Z`, you will first want to run `git checkout X.Y.Z`, and then download the prebuilt dependency package for that release version. You will need to place the extracted artifacts in the same directory as the UTM source code. Once you have done this, you can follow the instructions below to complete the build or even build and debug from XCode.
+
+If you are building off of the latest `master` branch, then use the latest pre-built dependencies.
+
 ### Building Dependencies (Advanced)
 
 If you want to build the dependencies yourself, it is highly recommended that you start with a fresh macOS VM. This is because some of the dependencies attempt to use `/usr/local/lib` even though the architecture does not match. Certain installed packages like `libusb`, `gawk`, and `cmake` will break the build.
