@@ -47,5 +47,13 @@ const NSNotificationName UTMImportNotification = @"UTMImportNotification";
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application
+        openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    NSLog(@"URL query: %@", [url query]);
+    return YES;
+}
 
 @end
